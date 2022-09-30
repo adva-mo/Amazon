@@ -82,7 +82,7 @@
 .horizontal-links-layer a,
 .horizontal-links-layer h6,
 .horizontal-links-layer .small-arrow {
-  color: rgb(110, 109, 109);
+  color: var(--primary-grey);
   font-size: 12px;
   /* padding: 0 1rem; */
 }
@@ -91,4 +91,32 @@
 }
 .horizontal-links-layer a:hover {
   text-decoration: underline;
+}
+.main_content_box {
+  padding: 0.5rem 1.5rem;
+  gap: 1rem;
+  color: var(--primary-grey);
+}
+.main_content_right_box {
+  width: 17rem;
+  height: 700px;
+  padding: 14px 18px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
+.main-item-pic {
+  padding-top: 3rem;
+  padding-right: 1rem;
+}
+.main_content_middle_box {
+  line-height: 2rem;
+}
+.main-content-header {
+  border: 1px solid lightgrey;
+  border-width: 0 0 1px 0;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.main_content_middle_box ol {
+  list-style: inside;
 }

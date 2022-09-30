@@ -4,14 +4,13 @@
     format("woff2");
 }
 
-root {
-  --bg-light: #194646;
-  --orange: rgb(255, 165, 0);
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --main-box-links: #007185;
+  --orange: #c16803;
+  --primary-grey: #565959;
 }
 
 body {
@@ -49,4 +48,11 @@ a {
 }
 .forms-lable {
   border: none;
+}
+.main_content_box a {
+  color: var(--main-box-links);
+}
+.main_content_box a:hover {
+  color: var(--orange);
+  text-decoration: underline;
 }
