@@ -58,3 +58,37 @@
 .bottom-nav h5 {
   padding: 1rem 1rem;
 }
+.ads-layer {
+  height: 60px;
+  background-color: rgb(245, 244, 244);
+  gap: 1rem;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  border-width: 1px 0 1px 0;
+}
+.ads-layer img {
+  height: 34px;
+  width: 220px;
+}
+.horizontal-links-layer {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem 1rem;
+}
+
+.horizontal-links-layer a,
+.horizontal-links-layer h6,
+.horizontal-links-layer .small-arrow {
+  color: rgb(110, 109, 109);
+  font-size: 12px;
+  /* padding: 0 1rem; */
+}
+.horizontal-links-layer .small-arrow {
+  padding-top: 0.4rem;
+}
+.horizontal-links-layer a:hover {
+  text-decoration: underline;
+}
