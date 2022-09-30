@@ -1,0 +1,43 @@
+root {
+  --bg-light: #f3f3f3;
+  --orange: rgb(255, 165, 0);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 350vh;
+  font-family: Arial, sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+.main-layout {
+  width: 95%;
+}
+.top-nav-btn {
+  padding: 0.5rem 0.5rem;
+}
+.top-nav-btn:hover {
+  border: rgb(255, 255, 255) 1.5px solid;
+}
+.top-nav-line1 {
+  font-size: 12px;
+}
+.top-nav-line2 {
+  font-size: 14px;
+}
+.forms-lable {
+  border: none;
+}

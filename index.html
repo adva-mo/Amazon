@@ -4,15 +4,102 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- links  -->
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/utils.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
+
     <title>Amazon.com</title>
   </head>
+
   <body>
-    hello world
-    <!-- navbar -->
-    <header id="navbar">
-      <div id="top-nav"></div>
-      <div id="bottom-nav"></div>
-      <div id="allert-nav"></div>
+    <header id="header-navbar">
+      <!-- top - navbar -box -->
+      <div id="top-nav-box" class="flex main-layout top-nav-box">
+        <div id="top-nav-left" class="top-nav-left-box flex">
+          <a href="#" class="top-nav-btn"
+            ><img src="/photos/logo.svg" alt="Amazon" id="top-nav-left-logo"
+          /></a>
+          <div id="top-nav-left-location-box" class="top-nav-btn flex">
+            <div id="location-mark">@</div>
+            <div id="deliver-to-box">
+              <div class="top-nav-line1">Deliver to</div>
+              <div class="top-nav-line2">Israel</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="top-nav-search-box" class="top-nav-search-box flex">
+          <form action="#" class="form-search-box flex">
+            <div>
+              <label for="search-category"></label>
+              <select
+                name="search-category"
+                class="search-category"
+                id="search-category"
+              >
+                <option value="" disabled selected>All</option>
+                <option value="Arts & Crafts">Arts & Crafts</option>
+                <option value="Automotive">Automotive</option>
+                <option value="Baby"></option>
+                <option value="Beauty & Persoal Care"></option>
+                <option value="Books"></option>
+                <option value="Boy's fashion"></option>
+                <option value="vvv"></option>
+                <option value="vvv"></option>
+                <option value="vv"></option>
+                <option value="vv"></option>
+              </select>
+            </div>
+
+            <div>
+              <label for="search-term"></label>
+              <input
+                type="search-term"
+                class="search-term forms-lable"
+                name="search-term"
+                id="search-term"
+                placeholder=" Surfboard"
+              />
+            </div>
+
+            <button type="submit" class="mirror-glass forms-lable">0</button>
+          </form>
+        </div>
+
+        <div id="top-nav-right-box" class="flex">
+          <div class="top-nav-btn">
+            <div class="top-nav-line1"></div>
+            <div class="top-nav-line2">FLAG-EN</div>
+          </div>
+          <div class="top-nav-btn">
+            <div class="top-nav-line1">Hello, sign in</div>
+            <div class="top-nav-line2">Account & Lists^</div>
+          </div>
+          <div class="top-nav-btn">
+            <div class="top-nav-line1">Returns</div>
+            <div class="top-nav-line2">& Order</div>
+          </div>
+          <div class="top-nav-btn">CART</div>
+        </div>
+      </div>
+
+      <div class="middle-nav flex" id="middle-nav">
+        <ul class="flex">
+          <li><a href="#" class="top-nav-btn">= All</li></a>
+          <li><a href="#" class="top-nav-btn">Today's Deals</li></a>
+          <li><a href="#" class="top-nav-btn">Customer Service</li></a>
+          <li><a href="#" class="top-nav-btn">Registry</li></a>
+          <li><a href="#" class="top-nav-btn">Gift Cards</li></a>
+          <li><a href="#" class="top-nav-btn">Sell</li></a>
+          <li><a href="#" class="top-nav-btn">Local Delivery in Israel</li></a>
+        </ul>
+      </div>
+
+      <div class="bottom-nav" id="bottom-nav">
+        <h5>We are experiencing shipping delays in your area due to observance of local holidays. Please expect extended delivery time.</h5>
+      </div>
     </header>
 
     <!-- main-box -->
