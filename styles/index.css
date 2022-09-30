@@ -60,7 +60,7 @@
 }
 .ads-layer {
   height: 60px;
-  background-color: rgb(245, 244, 244);
+  background-color: var(--light-grey);
   gap: 1rem;
   align-items: center;
   padding-left: 2rem;
@@ -92,6 +92,10 @@
 .horizontal-links-layer a:hover {
   text-decoration: underline;
 }
+.main-content-right-side {
+  flex-direction: column;
+  gap: 1rem;
+}
 .main_content_box {
   padding: 0.5rem 1.5rem;
   gap: 1rem;
@@ -99,10 +103,11 @@
 }
 .main_content_right_box {
   width: 17rem;
-  height: 700px;
+  /* height: 700px; */
   padding: 14px 18px;
   border: 1px solid lightgrey;
   border-radius: 8px;
+  line-height: 1.3rem;
 }
 .main-item-pic {
   padding-top: 3rem;
@@ -119,4 +124,31 @@
 }
 .main_content_middle_box ol {
   list-style: inside;
+}
+.main_content_small_pics {
+  padding-top: 2rem;
+}
+.main_content_small_pics img {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin: 0.1rem 0;
+}
+.main_content_small_pics img:hover {
+  border: 1px solid var(--orange);
+  /* box-shadow: 1px 1px 0.5px 0.5px var(--orange); */
+}
+.low-page-ad-pic > img {
+  object-fit: fill;
+  width: 17rem;
+  border: 1px solid lightgray;
+}
+.add-to-list-box {
+  border: 1px solid lightgray;
+  border-width: 1px 0 0 0;
+  padding: 0.7rem 0;
+  margin-top: 0.7rem;
+}
+.main-content-right-side > button {
+  background-color: white;
+  text-align: left;
 }

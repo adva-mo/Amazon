@@ -9,8 +9,10 @@
   padding: 0;
   box-sizing: border-box;
   --main-box-links: #007185;
-  --orange: #c16803;
+  --dark-orange: #cc6600;
   --primary-grey: #565959;
+  --orange: #ffa500;
+  --light-grey: #f7f8f8ff;
 }
 
 body {
@@ -53,6 +55,23 @@ a {
   color: var(--main-box-links);
 }
 .main_content_box a:hover {
-  color: var(--orange);
+  color: var(--dark-orange);
   text-decoration: underline;
+}
+.shopping-btn {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+.add-to-list-btn {
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  font-size: 13px;
+  text-align: left;
+  border: 1px solid grey;
+  border-radius: 4px;
+  /* box-shadow: 1px 1px gray; */
 }
