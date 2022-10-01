@@ -157,10 +157,15 @@
   line-height: 1.3rem;
 }
 .main-item-pic {
+  padding: 3rem 0 0.5rem 1rem;
   padding-top: 3rem;
   padding-right: 1rem;
   position: sticky;
   top: 0;
+}
+.sticky-roll-over {
+  position: sticky;
+  top: 380px;
 }
 .main_content_middle_box {
   line-height: 2rem;
@@ -191,6 +196,7 @@
 .main_content_small_pics img:hover {
   border: 1px solid var(--orange);
   /* box-shadow: 1px 1px 0.5px 0.5px var(--orange); */
+  box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
 }
 .main-content-right-side {
   font-size: 14px;
