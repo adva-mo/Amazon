@@ -1,0 +1,29 @@
+@media (max-width: 1000px) {
+  .display-none {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .display-none-800 {
+    display: none;
+  }
+}
+@media (max-width: 680px) {
+  .display-none-600 {
+    display: none;
+  }
+  .top-nav-box .amazon-logo > img {
+    width: 55px;
+    height: 22px;
+  }
+  .top-nav-box .amazon-logo {
+    width: 55px;
+    height: 22px;
+  }
+}
+@media (max-width: 550px) {
+  .display-none-550 {
+    display: none;
+  }
+}

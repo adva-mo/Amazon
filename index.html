@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/styles/normalize.css" />
     <link rel="stylesheet" href="/styles/utils.css" />
     <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/media.css">
     <!-- font awsome -->
     <script src="https://kit.fontawesome.com/4fa5486b68.js" crossorigin="anonymous"></script>
 
@@ -24,10 +25,10 @@
         <a href="#" class="top-nav-btn amazon-logo"
             ><img src="/photos/amazon-logo.png" alt="Amazon" id="top-nav-left-logo"
           /></a>
-        <div id="top-nav-left-location-box" class="top-nav-btn flex">
-            <div id="location-mark"><i class="fa-solid fa-location-dot"></i></div>
-            <div id="deliver-to-box">
-              <div class="top-nav-line1">Deliver to</div>
+        <div id="top-nav-left-location-box" class="top-nav-btn flex .display-none">
+            <div id="location-mark" class="display-none"><i class="fa-solid fa-location-dot display-none"></i></div>
+            <div id="deliver-to-box" class="display-none">
+              <div class="top-nav-line1 display-none">Deliver to</div>
               <div class="top-nav-line2">Israel</div>
             </div>
           </div>
@@ -67,17 +68,17 @@
             <button type="submit" class="mirror-glass forms-lable"><i class="fa-solid fa-magnifying-glass"></i></button>
           </form>
 
-          <div class="top-nav-btn flex flag-botton">
+          <div class="top-nav-btn flex flag-botton display-none-800">
             <img src="/photos/usa-flag.png" alt="usa-flag" >
             EN 
             <i class="fa-solid fa-sort-down"></i>
           </div>
 
-          <div class="top-nav-btn">
+          <div class="top-nav-btn sign-in-btn display-none-550">
             <div class="top-nav-line1">Hello, sign in</div>
             <div class="top-nav-line2">Account & Lists &nbsp <i class="fa-solid fa-sort-down"></i></div>
           </div>
-          <div class="top-nav-btn">
+          <div class="top-nav-btn returns-btn display-none-600">
             <div class="top-nav-line1">Returns</div>
             <div class="top-nav-line2">& Orders</div>
           </div>
