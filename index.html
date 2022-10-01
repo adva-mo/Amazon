@@ -16,24 +16,21 @@
   </head>
 
   <body>
-    <!-- header! -->
+   
     <header id="header-navbar">
+      
       <!-- top - navbar -box -->
-      <div id="top-nav-box" class="flex main-layout top-nav-box">
-        <div id="top-nav-left" class="top-nav-left-box flex">
-          <a href="#" class="top-nav-btn"
+      <div class="top-nav-box flex">
+        <a href="#" class="top-nav-btn"
             ><img src="/photos/amazon-logo.png" alt="Amazon" id="top-nav-left-logo"
           /></a>
-          <div id="top-nav-left-location-box" class="top-nav-btn flex">
+        <div id="top-nav-left-location-box" class="top-nav-btn flex">
             <div id="location-mark"><i class="fa-solid fa-location-dot"></i></div>
             <div id="deliver-to-box">
               <div class="top-nav-line1">Deliver to</div>
               <div class="top-nav-line2">Israel</div>
             </div>
           </div>
-        </div>
-
-        <div id="top-nav-search-box" class="top-nav-search-box flex">
           <form action="#" class="form-search-box flex">
             <div>
               <label for="search-category"></label>
@@ -56,7 +53,7 @@
               </select>
             </div>
 
-            <div>
+            <div class="shrink-search">
               <label for="search-term"></label>
               <input
                 type="search-term"
@@ -69,25 +66,26 @@
 
             <button type="submit" class="mirror-glass forms-lable"><i class="fa-solid fa-magnifying-glass"></i></button>
           </form>
-        </div>
 
-        <div id="top-nav-right-box" class="flex">
-          <div class="top-nav-btn">
-            <div class="top-nav-line1"></div>
-            <div class="top-nav-line2">FLAG-EN</div>
+          <div class="top-nav-btn flex flag-botton">
+            <img src="/photos/usa-flag.png" alt="usa-flag" >
+            EN 
+            <i class="fa-solid fa-sort-down"></i>
           </div>
+
           <div class="top-nav-btn">
             <div class="top-nav-line1">Hello, sign in</div>
-            <div class="top-nav-line2">Account & Lists^</div>
+            <div class="top-nav-line2">Account & Lists &nbsp <i class="fa-solid fa-sort-down"></i></div>
           </div>
           <div class="top-nav-btn">
             <div class="top-nav-line1">Returns</div>
-            <div class="top-nav-line2">& Order</div>
+            <div class="top-nav-line2">& Orders</div>
           </div>
-          <div class="top-nav-btn"><i class="fa-solid fa-cart-shopping"></i></div>
+          <div class="top-nav-btn"><i class="fa-solid fa-cart-shopping"></i>cart</div>
         </div>
-      </div>
 
+        <!-- middle-nav-layer -->
+        
       <div class="middle-nav flex" id="middle-nav">
         <ul class="flex">
           <li><a href="#" class="top-nav-btn">= All</li></a>
@@ -101,7 +99,7 @@
       </div>
 
       <div class="bottom-nav" id="bottom-nav">
-        <h5>We are experiencing shipping delays in your area due to observance of local holidays. Please expect extended delivery time.</h5>
+        <h5><strong>We are experiencing shipping delays in your area due to observance of local holidays. Please expect extended delivery time.</strong></h5>
       </div>
     </header>
     
@@ -109,7 +107,7 @@
     
     <section id="ads-layer">
       <div class="ads-layer flex">
-        <img src="/photos/side photos/3.jpg" alt="ads-pic">
+        <img src="/photos/ads-layer-pics/ads-layer-first-photo.png" alt="ads-pic">
         <img src="/photos/ads-layer-pics/ads-layer-middle.pc.png" alt="middle-pic">        
         <img src="/photos/ads-pic.png" alt="ads-pic2">
 
@@ -149,7 +147,7 @@
           <h2>LOQI Contemporary, Blue</h2>
         </div>
         <h2>$18 96</h2>
-        <h6>No Import Fees Deposit & $11.12 Shipping to Israel&nbsp<span><a href="#">Details</a></span></h6>
+        <h6>No Import Fees Deposit & $11.12 Shipping to Israel &nbsp<span><a href="#">Details</a></span></h6>
         <h6>About this Item</h6>
         <ol>
           <li>Water resistant shopper bag with carry pouch</li>
@@ -173,26 +171,26 @@
           <p> fastest delivery Monday, October 24</P> <br>
           <i class="fa-solid fa-location-dot"></i><span><a href="#">Deliver to Israel</a></span> 
           <br><br>
-          <h3>Only 2 left in stock - <br>
+          <h3 class="warnings">Only 2 left in stock - <br>
           order soon.</h3>
           <form action="#" class="form-search-box flex">
             <div>
-              <label for="search-category"></label>
+              <label for="qty-select"></label>
               <select
-                name="search-category"
-                class="search-category"
-                id="search-category"
+                name="qty-select"
+                class="qty-select"
+                id="qty-select"
               >
-                <option value="" disabled selected>Qty:1</option>
+                <option value="" disabled selected>Qty:&nbsp 1</option>
                 <option value="second-option">2</option>
               </select>
             </div>
           </form>
-          <button class="shopping-btn">Add to Cart</button> <br>
-          <button class="shopping-btn">Buy Now</button><br>
-          <i class="fa-solid fa-lock"></i><span><a href="#">Secure transaction</a></span>
+          <button class="shopping-btn yellow">Add to Cart</button> <br>
+          <button class="shopping-btn orange">Buy Now</button><br>
+          <i class="fa-solid fa-lock"></i><span><a href="#">&nbsp Secure transaction</a></span>
           <br><br>
-          <P>Return policy: <span><a href="#">for <br> Return, Refund or Replacement <br> within 30 days of receipt</a></span></P>
+          <P class="policy-info">Return policy: <span><a href="#">for <br> Return, Refund or Replacement <br> within 30 days of receipt <i class="fa-solid fa-sort-down"></i></a></span></P>
           <form action="#">
             <div>
               <label for="gift-receipt"></label>
@@ -204,7 +202,7 @@
           </div>
         </div>
 
-        <button class="main_content_right_box">New (2) from $18.96</button>
+        <button class="main_content_right_box">New (2) from <span class="warnings ">$18.96</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa-solid fa-chevron-right"></i></button>
 
         <div class="low-page-ad-pic"><img src="/photos/low-ads-pic.png" alt=""></div>
         <h6>Sponsored <span><img src="/photos/info-icon.png" alt=""></span></h6> 

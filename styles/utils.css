@@ -2,6 +2,7 @@
   font-family: "amazon";
   src: url("/assets/fonts/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_.woff2")
     format("woff2");
+  font-weight: 400;
 }
 
 * {
@@ -14,11 +15,14 @@
   --orange: #ffa500;
   --light-grey: #f7f8f8ff;
   --trans-orange: #ffbd69ff;
+  --warning-red: #b83d1fff;
+  --light-border: 1px solid lightgray;
+  --yellow-btn: #ffd814ff;
 }
 
 body {
   height: 350vh;
-  font-family: "amazon";
+  font-family: "amazon", Arial, sans-serif;
 }
 ul {
   list-style: none;
@@ -38,19 +42,34 @@ a {
   width: 95%;
 }
 .top-nav-btn {
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem 0.3rem;
 }
 .top-nav-btn:hover {
   border: rgb(255, 255, 255) 1.5px solid;
+}
+.flag-botton {
+  align-items: flex-end;
+  word-spacing: 0.2rem;
+  /* align-items: flex-end; */
+  /* text-align: center; */
 }
 .top-nav-line1 {
   font-size: 12px;
 }
 .top-nav-line2 {
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 900;
+
+  /* color: white;
+  text-shadow: 1px 0 white;
+  letter-spacing: 1px;
+  font-weight: bold; */
 }
 .forms-lable {
   border: none;
+}
+.middle-nav li a {
+  font-size: 14px;
 }
 .main_content_box a {
   color: var(--main-box-links);
@@ -66,6 +85,14 @@ a {
   padding: 0.5rem 0;
   font-size: 12px;
   cursor: pointer;
+  margin: 0.3rem 0;
+}
+.yellow {
+  background-color: var(--yellow-btn);
+}
+.orange {
+  background-color: var(--orange);
+  margin-bottom: 0.5rem;
 }
 .add-to-list-btn {
   width: 100%;
@@ -80,3 +107,18 @@ a {
   height: 275px;
   width: 160px;
 }
+.placholder {
+  justify-content: flex-end;
+}
+.warnings {
+  color: var(--warning-red);
+}
+.policy-info {
+  line-height: 1.2rem;
+  font-size: 14px;
+}
+/* .shrink-search {
+  flex-shrink: 1;
+  width: 34rem;
+  flex-grow: 1;
+} */
