@@ -122,3 +122,6 @@ a {
   width: 34rem;
   flex-grow: 1;
 } */
+.small {
+  font-size: 12px;
+}
