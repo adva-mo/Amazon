@@ -18,6 +18,7 @@
   --warning-red: #b83d1fff;
   --light-border: 1px solid lightgray;
   --yellow-btn: #ffd814ff;
+  --border: solid 1px lightgrey;
 }
 
 body {
@@ -43,9 +44,10 @@ a {
 }
 .top-nav-btn {
   padding: 0.5rem 0.3rem;
+  border-radius: 5px;
 }
 .top-nav-btn:hover {
-  border: rgb(255, 255, 255) 1.5px solid;
+  outline: rgb(255, 255, 255) 1.5px solid;
 }
 .flag-botton {
   align-items: flex-end;
@@ -124,4 +126,17 @@ a {
 } */
 .small {
   font-size: 12px;
+}
+.more-item-card img {
+  width: 135px;
+  height: 135px;
+}
+.more-item-card {
+  line-height: normal;
+  color: var(--main-box-links);
+  font-size: 14px;
+  padding: 0 0.5rem;
+}
+.more-item-card p:hover {
+  color: var(--dark-orange);
 }
