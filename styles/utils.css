@@ -13,6 +13,7 @@
   --primary-grey: #565959;
   --orange: #ffa500;
   --light-grey: #f7f8f8ff;
+  --trans-orange: #ffbd69ff;
 }
 
 body {
@@ -74,4 +75,8 @@ a {
   border: 1px solid grey;
   border-radius: 4px;
   /* box-shadow: 1px 1px gray; */
+}
+.more-item-card {
+  height: 275px;
+  width: 160px;
 }
