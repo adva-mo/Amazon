@@ -158,14 +158,15 @@
 .main_content_small_pics {
   padding-top: 2rem;
 }
-.main_content_small_pics img {
+.side-pic-second,
+.side-pic-first {
   border: 1px solid lightgray;
   border-radius: 3px;
   margin: 0.1rem 0;
   position: sticky;
   top: 0;
 }
-.second-side-sticky-pic {
+.side-pic-second {
   top: 60px;
 }
 .main_content_small_pics img:hover {
