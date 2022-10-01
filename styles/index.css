@@ -61,6 +61,9 @@
   /* flex-shrink: 1; */
   flex-grow: 1;
 }
+.search-term:focus {
+  outline: 2.5px solid var(--orange);
+}
 .shrink-search {
   flex-shrink: 1;
   flex-grow: 1;
