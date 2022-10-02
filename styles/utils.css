@@ -136,6 +136,7 @@ a {
   color: var(--main-box-links);
   font-size: 14px;
   padding: 0 0.5rem;
+  flex-shrink: 1;
 }
 .more-item-card p:hover {
   color: var(--dark-orange);

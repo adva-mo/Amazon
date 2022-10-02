@@ -8,6 +8,13 @@
   .display-none-800 {
     display: none;
   }
+  .bottom-nav {
+    height: 3.3rem;
+  }
+  .main-item-pic {
+    width: 250px;
+    height: 230px;
+  }
 }
 @media (max-width: 680px) {
   .display-none-600 {
@@ -21,9 +28,32 @@
     width: 55px;
     height: 22px;
   }
+  .ads-layer img {
+    height: 26px;
+    width: 180px;
+  }
 }
 @media (max-width: 550px) {
   .display-none-550 {
     display: none;
+  }
+  .bottom-nav {
+    height: 3.3rem;
+  }
+  .main_content_box {
+    flex-direction: column;
+  }
+  .cart-pic {
+    width: 36px;
+    height: 40px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    border-radius: 25%;
+  }
+  .main-item-pic {
+    /* width: 250px;
+    height: 230px; */
+    flex-grow: 1;
   }
 }

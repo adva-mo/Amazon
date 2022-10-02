@@ -77,6 +77,7 @@
   background-color: rgb(35, 47, 62);
   height: 2.6rem;
   align-items: center;
+  flex-shrink: 1;
 }
 .middle-nav a {
   font-size: 12px;
@@ -103,10 +104,12 @@
   justify-content: space-between;
   border: 1px solid lightgrey;
   border-width: 1px 0 1px 0;
+  flex-shrink: 1;
 }
 .ads-layer img {
   height: 34px;
   width: 220px;
+  transition: 0.3s ease;
 }
 .ads-layer img:first-child {
   width: 140px;
@@ -162,6 +165,7 @@
   padding-right: 1rem;
   position: sticky;
   top: 0;
+  flex-grow: 1;
 }
 .sticky-roll-over {
   position: sticky;
