@@ -56,4 +56,15 @@
     height: 230px; */
     flex-grow: 1;
   }
+  .bottom-nav {
+    height: 3.6rem;
+  }
+  .bottom-nav h5 {
+    font-size: 12px;
+    padding-top: 0.3rem;
+  }
+  .middle-nav li a {
+    padding: 0 0.3rem;
+    font-size: 12px;
+  }
 }
