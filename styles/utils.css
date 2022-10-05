@@ -2,9 +2,11 @@
   font-family: "amazon";
   src: url("/assets/fonts/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_.woff2")
     format("woff2");
-  font-weight: 400;
 }
-
+@font-face {
+  font-family: "amazon-b";
+  src: url("/assets/fonts/AmazonEmber_Bd.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +25,7 @@
 
 body {
   height: 350vh;
-  font-family: "amazon", Arial, sans-serif;
+  font-family: "amazon", "amazon-b", Arial, sans-serif;
 }
 ul {
   list-style: none;
@@ -59,8 +61,8 @@ a {
   font-size: 12px;
 }
 .top-nav-line2 {
-  font-size: 12px;
-  font-weight: 900;
+  font-size: 14px;
+  font-family: "amazon-b";
 
   /* color: white;
   text-shadow: 1px 0 white;
@@ -140,4 +142,11 @@ a {
 }
 .more-item-card p:hover {
   color: var(--dark-orange);
+}
+.bold {
+  font-family: "amazon-b";
+}
+.black-bold {
+  font-family: "amazon-b";
+  color: black;
 }
