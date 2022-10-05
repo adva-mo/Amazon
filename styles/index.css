@@ -20,6 +20,9 @@
   /* text-align: center; */
   /* transform: translateY(-0.5rem); */
 }
+.location mark {
+  transform: translateY(0.5rem);
+}
 .flag-botton > img {
   width: 21px;
   height: 20px;
@@ -39,6 +42,9 @@
   border-color: lightgray;
   border-radius: 5px 0 0 5px;
   flex-grow: 1;
+  padding: 0 0.3rem;
+  /* transform: translateX(-0.3rem); */
+  /* vertical-align: middle; */
 }
 .search-category:hover {
   background-color: lightgrey;
@@ -60,6 +66,7 @@
   height: 45px;
   /* flex-shrink: 1; */
   flex-grow: 1;
+  padding-left: 1rem;
 }
 .search-term:focus {
   outline: 2.5px solid var(--orange);
@@ -160,16 +167,50 @@
   line-height: 1.3rem;
 }
 .main-item-pic {
+  padding: 0 1rem;
+  position: sticky;
+  top: 0;
+  /* bottom: 2rem; */
+  flex-grow: 1;
+  width: 26rem;
+  height: 32rem;
+}
+.poping-main-item-pic {
   padding: 3rem 0 0.5rem 1rem;
   padding-top: 3rem;
   padding-right: 1rem;
-  position: sticky;
-  top: 0;
-  flex-grow: 1;
+  display: none;
 }
+
+/* ----disply larrge image when hovering----- */
+
+/* .main_content_small_pics {
+  position: relative;
+}
+.side-pic-second::before {
+  content: "";
+  background-image: url(https://m.media-amazon.com/images/I/81S1D3b5qJL._AC_UX679_.jpg);
+  position: absolute;
+  top: 0;
+  left: 3rem;
+  width: 26rem;
+  height: 32rem;
+  z-index: -1;
+}
+.side-pic-second:hover::before {
+  content: "";
+  background: url(https://m.media-amazon.com/images/I/81S1D3b5qJL._AC_UX679_.jpg);
+  position: absolute;
+  top: 0;
+  left: 3rem;
+  width: 26rem;
+  height: 32rem;
+  z-index: 3;
+} */
+
 .sticky-roll-over {
   position: sticky;
-  top: 380px;
+  top: 520px;
 }
 .main_content_middle_box {
   line-height: 2rem;
@@ -193,13 +234,15 @@
   margin: 0.1rem 0;
   position: sticky;
   top: 0;
+  bottom: 60px;
 }
 .side-pic-second {
   top: 60px;
+  bottom: 0;
 }
 .main_content_small_pics img:hover {
   border: 1px solid var(--orange);
-  /* box-shadow: 1px 1px 0.5px 0.5px var(--orange); */
+  box-shadow: 1px 1px 0.5px 0.5px var(--orange);
   box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
 }
 .main-content-right-side {
@@ -211,7 +254,7 @@
   border: var(--light-border);
   border-radius: 6px;
   background-color: var(--light-grey);
-  /* color: grey; */
+  color: grey;
   font-size: 11px;
   box-shadow: 0.2px 0.2px 0.5px 0px var(--primary-grey);
   padding: 3px 6px;
